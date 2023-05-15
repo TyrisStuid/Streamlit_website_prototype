@@ -27,10 +27,12 @@ if page == "Home":
     with st.container():
         st.write("-----")
         st.subheader("What's our priority?")
-        st.subheader("We work hard to hlep you become a better you with BRIGHTER FUTURE!!")
-        st.write(
-        """Our company’s vision - To provide affordable quality education, equipping students with knowledge and skills in their chosen stream.	 
-                                -To provide opportunities and shape them into future leaders, entrepreneurs and above all good human beings. """)
+        st.subheader("We work hard to help you become a better you with BRIGHTER FUTURE!!")
+        st.write("""
+        Our company’s vision 
+        - To provide affordable quality education, equipping students with knowledge and skills in their chosen stream.
+        -To provide opportunities and shape them into future leaders, entrepreneurs and above all good human beings.
+        """)
     
 
     with st.container():
