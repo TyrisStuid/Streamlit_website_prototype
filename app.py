@@ -197,7 +197,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img1)
     with c2:
-        st.subheader("Full college calculus course")
+        st.subheader("Full College Calculus")
         st.write("Informative calculus 1-3 course taught by well-known math professor Lenoard")
         st.write("[Go to course>](https://youtu.be/fYyARMqiaag)")
     
@@ -205,7 +205,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img2)
     with c2:
-        st.subheader("Machine Specialization course")
+        st.subheader("Machine Learning Specialization")
         st.write("A concise course taught by famous AI researcher, teacher Andrew Ng providing valuable machine learning knowledge and insights of how ML algorithms work")
         st.write("[Go to Course>](https://www.coursera.org/specializations/machine-learning-introduction)")
 
@@ -213,7 +213,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img4)
     with c2:
-        st.subheader("Cyber Security course")
+        st.subheader("Cyber Security")
         st.write("Free cyber security course by Burma Academy")
         st.write("[Go to Course>](https://burma.ac/courses/course-v1:SpringUniversityMyanmar+CS001+2022_CS001/about)")
 
@@ -221,7 +221,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img5)
     with c2:
-        st.subheader("Electrical engineering course")
+        st.subheader("Electrical Engineering")
         st.write("Introductory course about EE from Khan Academy including topics such as circuit analysis, signal processing etc.")
         st.write("[Go to Course>](https://www.khanacademy.org/science/electrical-engineering)")
 
@@ -229,7 +229,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img6)
     with c2:
-        st.subheader("Classical control theory course")
+        st.subheader("Classical Control Theory")
         st.write("Best free control course available online from youtube channel'Brian Douglas")
         st.write("[Go to Course>](https://www.youtube.com/watch?v=oBc_BHxw78s)")
 
@@ -245,7 +245,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img7)
     with c2:
-        st.subheader("Complex numbers course")
+        st.subheader("Complex numbers")
         st.write("Free course from brilliant about complex numbers, imaginary numbers and more.")
         st.write("[Go to Course>](https://brilliant.org/wiki/complex-numbers/)")
 
@@ -253,7 +253,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img8)
     with c2:
-        st.subheader("CS50 computer science course")
+        st.subheader("CS50 Computer Science Course")
         st.write("Free college level CS course from CS50 teaching topics like intro to programming, web development, data structures and algorithms and more.")
         st.write("[Go to Course>](https://youtu.be/8mAITcNt710)")
 
@@ -261,7 +261,7 @@ elif page == "Free Online Learning Resources":
     with c1:
         st.image(img9)
     with c2:
-        st.subheader("Laplace Transform course")
+        st.subheader("Laplace Transform")
         st.write("Arguably the best Laplace transform video on YouTube taught by youtuber 'blackpenredpen")
         st.write("[Go to Course>](https://youtu.be/ftnpM_RO0Jc)")
 
