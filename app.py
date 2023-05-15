@@ -188,7 +188,7 @@ elif page == "Free Online Learning Resources":
     img4 = Image.open("images/burmaacademy.png")
     img5 = Image.open("images/khan academy.png")
     img6 = Image.open("images/classical.jpg")
-    img7 = Image.open("images/brilliant.jpg")
+    img7 = Image.open("images/Brilliant.jpg")
     img8 = Image.open("images/cs502.jpg")
     img9 = Image.open("images/laplace.jpg")
 
