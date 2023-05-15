@@ -167,7 +167,7 @@ elif page == "Available Programs":
     with c2:
         st.image(img4)
         st.subheader("Test preparation")
-        st.write("We ask your permission to let us be part of your successful academic life by giving you the best tutor to help with your upcoming exams and tutorials.")
+        st.write("We ask you for your permission to be part of your successful academic life by giving you the best tutor to help with your upcoming exams and tutorials.")
 
     c1,c2 = st.columns(2)
     with c1:
