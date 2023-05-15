@@ -46,11 +46,11 @@ if page == "Home":
             st.write("##")
             st.write(
             """
-             -To improve Myanmar students of all ages
+             - To improve Myanmar students of all ages
 
-             -To improve their lives and also their life-long commitment to learning. 
+             - To improve their lives and also their life-long commitment to learning. 
              
-             -To achieve their potential to the fullest and help build self-confidence, both in traditional values and modern thinking. 
+             - To achieve their potential to the fullest and help build self-confidence, both in traditional values and modern thinking. 
             
             """
             )
