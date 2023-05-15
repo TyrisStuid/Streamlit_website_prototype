@@ -162,18 +162,18 @@ elif page == "Available Programs":
     with c1:
         st.image(img1)
         st.subheader("Online Mentoring")
-        st.write("We arrange to give you the best mentors suitable for your needs with your studying plans and career goals.")
+        st.write("We arrange to give you the best mentors suitable with your needs, studying plans and career goals.")
 
     with c2:
         st.image(img4)
         st.subheader("Test preparation")
-        st.write("We ask your permission for us be part of your successful academic life by giving you the best tutor to help with your upcoming exams and tutorials.")
+        st.write("We ask your permission to let us be part of your successful academic life by giving you the best tutor to help with your upcoming exams and tutorials.")
 
     c1,c2 = st.columns(2)
     with c1:
         st.image(img3)
         st.subheader("Guide for taking free courses")
-        st.write("There already are tons of online resources to learn but choosing the right materials can sometimes be overwhelming. We offer you a personal guide for helping you decide which courses suit you")
+        st.write("In today's digital age, tons of online resources are available to learn but choosing the right materials can sometimes be overwhelming. We offer you a personal guide for helping you decide which courses suit you best.")
 
     with c2:
         st.image(img2)
@@ -198,7 +198,7 @@ elif page == "Free Online Learning Resources":
         st.image(img1)
     with c2:
         st.subheader("Full College Calculus")
-        st.write("Informative calculus 1-3 course taught by well-known math professor Lenoard")
+        st.write("Informative calculus 1-3 course taught by well-known math professor Lenoard.")
         st.write("[Go to course>](https://youtu.be/fYyARMqiaag)")
     
     c1,c2 = st.columns((1,2))
@@ -206,7 +206,7 @@ elif page == "Free Online Learning Resources":
         st.image(img2)
     with c2:
         st.subheader("Machine Learning Specialization")
-        st.write("A concise course taught by famous AI researcher, teacher Andrew Ng providing valuable machine learning knowledge and insights of how ML algorithms work")
+        st.write("A concise course taught by famous AI researcher, teacher Andrew Ng providing valuable machine learning knowledge and insights of how ML algorithms work.")
         st.write("[Go to Course>](https://www.coursera.org/specializations/machine-learning-introduction)")
 
     c1,c2 = st.columns((1,2))
@@ -214,7 +214,7 @@ elif page == "Free Online Learning Resources":
         st.image(img4)
     with c2:
         st.subheader("Cyber Security")
-        st.write("Free cyber security course by Burma Academy")
+        st.write("Free cyber security course by Burma Academy.")
         st.write("[Go to Course>](https://burma.ac/courses/course-v1:SpringUniversityMyanmar+CS001+2022_CS001/about)")
 
     c1,c2 = st.columns((1,2))
@@ -230,7 +230,7 @@ elif page == "Free Online Learning Resources":
         st.image(img6)
     with c2:
         st.subheader("Classical Control Theory")
-        st.write("Best free control course available online from youtube channel'Brian Douglas")
+        st.write("Best free control course available online from youtube channel'Brian Douglas.'")
         st.write("[Go to Course>](https://www.youtube.com/watch?v=oBc_BHxw78s)")
 
     c1,c2 = st.columns((1,2))
@@ -238,7 +238,7 @@ elif page == "Free Online Learning Resources":
         st.image(img3)
     with c2:
         st.subheader("MIT Physics 801")
-        st.write("College physics course taught by Dutch astrophysicist Dr.Walter Lewin")
+        st.write("College physics course taught by Dutch astrophysicist Dr.Walter Lewin.")
         st.write("[Go to Course>](https://youtu.be/wWnfJ0-xXRE)")
     
     c1,c2 = st.columns((1,2))
@@ -254,7 +254,7 @@ elif page == "Free Online Learning Resources":
         st.image(img8)
     with c2:
         st.subheader("CS50 Computer Science Course")
-        st.write("Free college level CS course from CS50 teaching topics like intro to programming, web development, data structures and algorithms and more.")
+        st.write("Free college level CS course from CS50 teaching topics such as intro to programming, web development, data structures and algorithms and more.")
         st.write("[Go to Course>](https://youtu.be/8mAITcNt710)")
 
     c1,c2 = st.columns((1,2))
@@ -262,7 +262,7 @@ elif page == "Free Online Learning Resources":
         st.image(img9)
     with c2:
         st.subheader("Laplace Transform")
-        st.write("Arguably the best Laplace transform video on YouTube taught by youtuber 'blackpenredpen")
+        st.write("Arguably the best Laplace transform video on YouTube taught by youtuber 'blackpenredpen.'")
         st.write("[Go to Course>](https://youtu.be/ftnpM_RO0Jc)")
 
 
