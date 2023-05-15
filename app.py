@@ -31,6 +31,7 @@ if page == "Home":
         st.write("""
         Our company’s vision 
         - To provide affordable quality education, equipping students with knowledge and skills in their chosen stream.
+       
         -To provide opportunities and shape them into future leaders, entrepreneurs and above all good human beings.
         """)
     
