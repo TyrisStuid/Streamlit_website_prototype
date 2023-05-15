@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 from PIL import Image
 img = Image.open("images/g1.jpg")
 st.set_page_config(page_title="LAN THIT EDUCATION SERVICES", page_icon = img, layout="wide")
@@ -51,13 +50,7 @@ if page == "Home":
             """
             )
         with col2:
-            def load_lottieurl(url):
-                r = requests.get(url)
-                if r.status_code != 200:
-                    return None
-                return r.json()
-        lottie_coding = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_uMzzwhCG6N.json")
-        st_lottie(lottie_coding,height = 200)
+            st.empty()
   
     with st.container():
         st.write("---")
@@ -104,16 +97,9 @@ elif page == "About Us":
         st.write("""Lan Thit is an educational guide services company that provides academic and career technical training, as well as other workforce development training, primarily to at-risk youths and adults 
                  """)
     with col4:
-        def load_lottieurl(url):
-            r = requests.get(url)
-            if r.status_code != 200:
-                return None
-            return r.json()
-        lottie_coding = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_hAD4vGfz3Y.json")
-        st_lottie(lottie_coding,height = 200)
-    
-    st.container();
-    st.write("---");
+       st.empty()
+    st.container()
+    st.write("---")
     s1,s2 = st.columns((1,2))
     with s1:
         st.image(img1)
@@ -206,7 +192,7 @@ elif page == "Free Online Learning Resources":
     img8 = Image.open("images/cs502.jpg")
     img9 = Image.open("images/laplace.jpg")
 
-    st.header("About Us")
+    
     c1,c2 = st.columns((1,2))
     with c1:
         st.image(img1)
